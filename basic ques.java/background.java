@@ -5,7 +5,7 @@ backAround("cat") → "tcatt"
 backAround("Hello") → "oHelloo"
 backAround("a") → "aaa" */
 
-public string background(string str) {
-    string last = str.substring(str.length() -1);
+public String background(String str) {
+    String last = str.substring(str.length() -1);
     return last + str + last;
 }
