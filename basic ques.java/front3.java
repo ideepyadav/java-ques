@@ -5,7 +5,7 @@ front3("Java") → "JavJavJav"
 front3("Chocolate") → "ChoChoCho"
 front3("abc") → "abcabcabc" */
 
-public string front3(string str) {
+public String front3(string str) {
     String front;
     if (str.length() >=3 ) {
         front = str.substring(0,3);
