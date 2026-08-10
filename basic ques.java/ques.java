@@ -13,8 +13,8 @@ frontBack("ab") → "ba"
 /* question says that you have to do the exchange of the letters means last to first and first to last and mid is mid */
 
 
-public String frontback(string str) {
+public String frontback(String str) {
     if (str.length() <=1)return str;
-    string mid = str.substring(1, str.length()-1);
+    String mid = str.substring(1, str.length()-1);
     return str.charAt(str.length()-1) + mid +str.charAt(0);
 }
